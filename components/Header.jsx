@@ -22,7 +22,6 @@ const Header = () => {
             alt='Intagram'
           />
         </div>
-
         <div className='relative w-10 flex-shrink-0 cursor-pointer lg:hidden'>
           <Image
             src='https://links.papareact.com/jjm'
@@ -31,7 +30,6 @@ const Header = () => {
             alt='Intagram'
           />
         </div>
-
         <div className='max-w-xs'>
           <div className='relative mt-1 p-3 rounded-md'>
             <div className='absolute inset-y-0 pl-3 flex items-center pointer-events-none'>
@@ -44,8 +42,6 @@ const Header = () => {
             />
           </div>
         </div>
-
-        {/* Right */}
         <div className='flex items-center justify-end space-x-4'>
           <HomeIcon className='navBtn' />
           <MenuIcon className='h-6 md:hidden cursor-pointer' />
@@ -58,7 +54,6 @@ const Header = () => {
           <PlusCircleIcon className='navBtn' />
           <UserGroupIcon className='navBtn' />
           <HeartIcon className='navBtn' />
-
           <img
             src='https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png'
             alt='Profile Pic'
