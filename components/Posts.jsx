@@ -11,7 +11,7 @@ const posts = [
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint dolore laboriosam consequatur earum illo harum, adipisci tenetur beatae veniam possimus cum cumque at provident tempora nihil molestiae nesciunt eligendi vel.',
   },
   {
-    id: '123',
+    id: '1234',
     username: 'Vladimir Gluten',
     userImg: 'https://links.papareact.com/3ke',
     img: 'https://links.papareact.com/3ke',
