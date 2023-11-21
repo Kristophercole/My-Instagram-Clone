@@ -26,19 +26,23 @@ const Stories = () => {
   }, []);
 
   return (
-    <div className='flex space-x-2 p-6 bg-white mt-8 border border-gray-200 rounded-sm overflow-scroll scrollbar-thin scrollbar-thumb-black'>
+    <>
       {session && (
-        <Story img={session.user.image} username={session.user.username} />
-      )}
+        <div className='flex space-x-2 p-6 bg-white mt-8 border border-gray-200 rounded-sm overflow-scroll scrollbar-thin scrollbar-thumb-black'>
+          {session && (
+            <Story img={session.user.image} username={session.user.username} />
+          )}
 
-      {stories.map((profile) => (
-        <Story
-          key={profile.userId}
-          img={profile.avatar}
-          username={profile.username}
-        />
-      ))}
-    </div>
+          {stories.map((profile) => (
+            <Story
+              key={profile.userId}
+              img={profile.avatar}
+              username={profile.username}
+            />
+          ))}
+        </div>
+      )}
+    </>
   );
 };
 
